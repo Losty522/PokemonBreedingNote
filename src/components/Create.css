@@ -1,0 +1,23 @@
+.window{
+  background-color: #edc7B7;
+  width: 90%;
+  height: 400px;
+  overflow: scroll;
+}
+.pokeName{
+  font-size: 16px;
+}
+.pokeImage{
+  max-width: 50px
+}
+
+.selected-pokemon{
+  background-color: #e5a285;
+}
+
+/* Media query for screens smaller than 768px (adjust the value as needed) */
+@media (max-width: 768px) {
+  .pokeName {
+    font-size: 12px; /* Adjust the font size for smaller screens */
+  }
+}
