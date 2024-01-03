@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import "./create.css";
+import "./Create.css";
 import { useNavigate } from "react-router-dom";
 import Title from "./form/Title";
 import Natures from "./form/Natures";
