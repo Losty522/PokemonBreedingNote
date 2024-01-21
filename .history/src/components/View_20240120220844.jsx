@@ -28,6 +28,10 @@ export const View = () => {
   const navigate = useNavigate();
   const { savedData, setSavedData } = useContext(SavedDataContext);
 
+  useEffect(() => {
+    console.log(savedData);
+  }, []);
+
   return (
     <>
       <Row className="  mx-auto my-1">

@@ -1,7 +1,7 @@
 import SavedDataContext from "../context/SavedDataContext";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -27,6 +27,10 @@ export const View = () => {
 
   const navigate = useNavigate();
   const { savedData, setSavedData } = useContext(SavedDataContext);
+
+  // useEffect(() => {
+  //   console.log(savedData);
+  // }, [savedData]);
 
   return (
     <>

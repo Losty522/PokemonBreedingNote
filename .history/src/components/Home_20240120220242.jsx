@@ -20,9 +20,8 @@ const Home = () => {
         </Col>
 
         <p style={{ fontSize: "20px" }}>
-          This website can make Pokemon Breeding Notes.
+          This website can make Pokemon Breeding Note.
           <br />
-          if you want to create a new data, Click the below button.
         </p>
 
         <Col xs="auto" className="mb-3 mt-2">
